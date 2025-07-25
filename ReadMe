@@ -1,0 +1,52 @@
+# 💬 Tweet Sentiment Analyzer
+
+This is a simple web application built with **Streamlit** that classifies the sentiment of tweets as **Positive 😊** or **Negative 😞**. It uses a **Logistic Regression model** trained on a large dataset of tweets and applies natural language processing (NLP) techniques for text cleaning and vectorization.
+
+---
+
+## 🚀 Project Idea
+
+The goal of this project is to **analyze the sentiment of user-input tweets** in real-time. It allows users to type or paste any tweet into the app, and then uses a trained machine learning model to determine whether the sentiment is **positive** or **negative**. 
+
+This project demonstrates:
+- Practical use of machine learning in Natural Language Processing (NLP)
+- End-to-end pipeline from data preprocessing to model deployment
+- User-friendly interface using Streamlit
+
+---
+
+## 🧠 Features
+
+- Clean UI with emojis and colors
+- Real-time sentiment prediction
+- Text preprocessing: tokenization, stopword removal, lemmatization
+- Based on **Logistic Regression** and **TF-IDF Vectorizer**
+- Deployable on platforms like Colab using `Cloudflare` or `ngrok`
+
+---
+
+## 📦 Technologies Used
+
+- Python
+- Streamlit
+- Scikit-learn
+- NLTK
+- Joblib
+- Google Colab (for deployment)
+
+---
+
+## 📂 Files Included
+
+- `training_and_save.py`: Code to clean data, train the model, and save it.
+- `model.pkl`: The trained logistic regression model.
+- `vectorizer.pkl`: TF-IDF vectorizer fitted on training data.
+- `app.py`: Streamlit application to predict tweet sentiment.
+- `README.md`: This file.
+
+---
+
+## 📊 Sample Input
+
+```text
+I love this new phone!
